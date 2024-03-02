@@ -53,10 +53,16 @@ a {
     grid-template-columns: 50% 50%;
 }
 
-#left {
+#content-left {
     grid-column: 1;
 }
 
-#right {
+#content-right {
     grid-column: 2;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
