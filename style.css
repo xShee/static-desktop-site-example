@@ -38,6 +38,46 @@ a {
     text-decoration: none;
 }
 
+button {
+    width: 10vw;
+    height: fit-content;
+    border: 1vw solid #41C1BA;
+    border-radius: 100vmax;
+    background-color: #41C1BA;
+    color:#F7F7F7;
+    margin: 2vw 7vw;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset > * {
+    display: block;
+}
+fieldset div {
+    display: flex;
+    align-items: center;
+}
+
+input, textarea {
+    border: 0.5vw solid #F7F7F7;
+    background-color: #F7F7F7;
+    width: 24vw;
+    height: 3vw;
+    margin-bottom: 2vw;
+}
+
+textarea {
+    height: 8vw;
+}
+
+input[type="checkbox"] {
+    height: 3vw;
+    width: 3vw;
+    margin: 0;
+}
+
 #logo {
     height: 20vh;
     margin: 4vh 6vw;
@@ -81,6 +121,10 @@ a {
 
 .content-vert-centered {
     padding-top: 30%;
+}
+
+.checkbox-label {
+    margin-left: 1.5vw;
 }
 
 .gallery {
