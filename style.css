@@ -49,4 +49,14 @@ a {
 #content {
     margin: 0 10vw;
     padding-top: 25vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#left {
+    grid-column: 1;
+}
+
+#right {
+    grid-column: 2;
 }
